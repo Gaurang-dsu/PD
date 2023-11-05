@@ -24,4 +24,20 @@
  ### VERSEL
  ![WhatsApp Image 2023-10-19 at 10 45 32_8d4f061e](https://github.com/Gaurang-dsu/PD/assets/141448013/f316cdd2-3955-4234-ae20-793fdbb4d464)
 
- 
+ ## Flowchart
+ ```mermaid
+  graph TD;
+      A[VS Code]-->B{Commit changes};
+      B-->|Yes| C[Command Prompt];
+     C-->D{Trigger Build};
+     D-->|Yes| E[Run 3 repos];
+    E--> F[Build];
+  F-->|Yes| G[Window pops up];
+G--> H{Notify};
+  H-->|Yes| I[Sonar cloud];
+I-->|If no errors| J[Passed];
+I-->|Errors detected| K[Display bugs and erros];
+J-->L[Terraform];
+L-->|Yes| M[Output displayed];
+K--> A;
+```
