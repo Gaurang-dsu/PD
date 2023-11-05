@@ -26,6 +26,7 @@
 
  ## Flowchart
  mermaid
+  
   graph TD;
       A[VS Code]-->B{Commit changes};
       B-->|Yes| C[Command Prompt];
