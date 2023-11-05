@@ -25,7 +25,7 @@
  ![WhatsApp Image 2023-10-19 at 10 45 32_8d4f061e](https://github.com/Gaurang-dsu/PD/assets/141448013/f316cdd2-3955-4234-ae20-793fdbb4d464)
 
  ## Flowchart
- '''mermaid
+ ```mermaid
   graph TD;
       A[VS Code]-->B{Commit changes};
       B-->|Yes| C[Command Prompt];
@@ -40,4 +40,4 @@ I-->|Errors detected| K[Display bugs and erros];
 J-->L[Terraform];
 L-->|Yes| M[Output displayed];
 K--> A;
-'''
+```
